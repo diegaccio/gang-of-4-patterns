@@ -1,18 +1,40 @@
-# Decorator Pattern
+# Gang of Four (GoF) Design Patterns
 
-The **Decorator Pattern** is a structural design pattern that allows for dynamically adding new functionalities to an object without modifying its original structure. This pattern is particularly useful in scenarios where we want to enhance the behavior of objects in a flexible and reusable way.
+The Gang of Four (GoF) design patterns are divided into three main categories: **Creational**, **Structural**, and **Behavioral**.
 
-In this example, we implement a simple notification system that can send a basic notification and then be "decorated" to add extra features, like sending notifications via email and SMS.
+## 1. Creational Patterns
+These patterns deal with object creation mechanisms.
 
-### Components of the Example
+- **Abstract Factory**: Creates families of related objects without specifying their concrete classes.
+- **Builder**: Constructs complex objects step-by-step, allowing for different representations.
+- **Factory Method**: Defines an interface for creating an object, letting subclasses decide which class to instantiate.
+- **Prototype**: Creates new objects by copying an existing object, known as a prototype.
+- **Singleton**: Ensures that a class has only one instance and provides a global point of access to it.
 
-1. **Base Interface**: Defines the method that each notification type must implement.
-2. **Concrete Class**: Implements the base notification.
-3. **Base Decorator**: A base class that implements the interface and contains a notifier, allowing new functionalities to be added.
-4. **Concrete Decorators**: Specific decorators that extend the base decorator to add features, like email and SMS notifications.
+## 2. Structural Patterns
+These patterns deal with object composition, simplifying the relationships between objects.
 
-### Example Code
+- **Adapter**: Converts the interface of a class into another interface that clients expect.
+- **Bridge**: Decouples an abstraction from its implementation, allowing both to vary independently.
+- **Composite**: Composes objects into tree-like structures to represent part-whole hierarchies.
+- **[Decorator](decorato.md)**: Adds responsibilities to objects dynamically without modifying their class.
+- **Facade**: Provides a unified interface to a set of interfaces in a subsystem.
+- **Flyweight**: Uses sharing to support large numbers of fine-grained objects efficiently.
+- **Proxy**: Provides a surrogate or placeholder for another object to control access to it.
 
-Here’s an example implementation of the Decorator Pattern in [Python](decorator.py)
+## 3. Behavioral Patterns
+These patterns deal with object interaction and communication.
 
+- **Chain of Responsibility**: Passes a request along a chain of handlers, where each handler decides to process it or pass it along.
+- **Command**: Encapsulates a request as an object, allowing for parameterization and queuing of requests.
+- **Interpreter**: Defines a representation for a language's grammar and uses it to interpret sentences in the language.
+- **Iterator**: Provides a way to access elements of a collection sequentially without exposing the underlying representation.
+- **Mediator**: Defines an object that centralizes and controls communication between objects.
+- **Memento**: Allows capturing and restoring an object’s internal state without violating encapsulation.
+- **Observer**: Defines a dependency between objects so that when one changes state, all its dependents are notified.
+- **State**: Allows an object to alter its behavior when its internal state changes.
+- **Strategy**: Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+- **Template Method**: Defines the skeleton of an algorithm, with steps deferred to subclasses.
+- **Visitor**: Allows adding further operations to objects without modifying their classes.
 
+*These patterns were introduced in* **Design Patterns: Elements of Reusable Object-Oriented Software** *by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.*
