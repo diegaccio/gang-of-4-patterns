@@ -13,4 +13,4 @@ In this example, we implement a simple notification system that can send a basic
 
 ### Example Code
 
-Here’s an example implementation of the Decorator Pattern in [Python](decorator.py)
+Here’s an example implementation of the Decorator Pattern in [Python](src/decorator.py)
