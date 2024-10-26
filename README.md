@@ -17,7 +17,7 @@ These patterns deal with object composition, simplifying the relationships betwe
 - **Adapter**: Converts the interface of a class into another interface that clients expect.
 - **Bridge**: Decouples an abstraction from its implementation, allowing both to vary independently.
 - **Composite**: Composes objects into tree-like structures to represent part-whole hierarchies.
-- **[Decorator](decorato.md)**: Adds responsibilities to objects dynamically without modifying their class.
+- **[Decorator](decorator.md)**: Adds responsibilities to objects dynamically without modifying their class.
 - **Facade**: Provides a unified interface to a set of interfaces in a subsystem.
 - **Flyweight**: Uses sharing to support large numbers of fine-grained objects efficiently.
 - **Proxy**: Provides a surrogate or placeholder for another object to control access to it.
