@@ -1,6 +1,8 @@
 
 # Abstract Factory Pattern in Python
 
+The Abstract Factory Pattern is a creational design pattern that provides an interface for creating families of related or dependent objects without specifying their concrete classes. It’s particularly useful when you want to create multiple objects in a coordinated way and hide the details of how they are instantiated.
+ 
 ```python
 from abc import ABC, abstractmethod
 
