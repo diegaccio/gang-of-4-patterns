@@ -111,3 +111,7 @@ Mac Checkbox Checked!
 ```
 
 This pattern lets you add new OS themes by simply creating additional factories and product implementations following the same interfaces.
+
+### Try it yourself
+
+Here’s the working implementation of the Decorator Pattern in [Python](src/decorator.py)
