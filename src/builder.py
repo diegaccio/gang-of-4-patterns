@@ -1,15 +1,3 @@
-
-# Builder Pattern
-
-The Builder Pattern is a creational design pattern that allows you to construct complex objects step-by-step. It provides a way to construct objects with multiple configuration options without having to pass all options at once or write a large constructor.
-
-This pattern is particularly useful for creating objects with many attributes or when object creation requires several steps.
-
-## Example: Builder Pattern in Python
-
-Suppose we want to build a computer with customizable components, such as CPU, RAM, and storage.
-
-```python
 # The Product
 class Computer:
     def __init__(self, cpu: str = "", ram: str = "", storage: str = ""):
@@ -61,31 +49,3 @@ if __name__ == "__main__":
     # Building a custom configuration directly
     custom_computer = builder.set_cpu("AMD Ryzen 7").set_ram("16GB").set_storage("256GB SSD").build()
     print(custom_computer)
-```
-
----
-
-## Explanation
-
-- **Product (`Computer`)**: The class we want to create using the builder pattern. It has attributes for CPU, RAM, and storage.
-  
-- **Builder (`ComputerBuilder`)**: The builder class provides a step-by-step way to set each attribute (CPU, RAM, and storage) of the `Computer` object.
-
-- **Director**: This optional class defines specific configurations, like a gaming computer or an office computer, using the builder methods.
-
----
-
-## Output
-
-When running the example code, the output will be:
-
-```
-Computer(CPU: Intel i9, RAM: 32GB, Storage: 1TB SSD)
-Computer(CPU: AMD Ryzen 7, RAM: 16GB, Storage: 256GB SSD)
-```
-
-With the Builder Pattern, you can easily customize object creation without needing a large constructor or numerous configuration parameters.
-
-### Try it yourself
-
-Here’s the working implementation of the Builder Pattern in [Python](src/abstract_factory.py)
