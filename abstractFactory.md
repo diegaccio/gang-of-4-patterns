@@ -114,4 +114,4 @@ This pattern lets you add new OS themes by simply creating additional factories 
 
 ### Try it yourself
 
-Here’s the working implementation of the Decorator Pattern in [Python](src/decorator.py)
+Here’s the working implementation of the Abstract Factory Pattern in [Python](src/abstract_factory.py)
