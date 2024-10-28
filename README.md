@@ -6,7 +6,7 @@ The Gang of Four (GoF) design patterns are divided into three main categories: *
 These patterns deal with object creation mechanisms.
 
 - **[Abstract Factory](abstractFactory.md)**: Creates families of related objects without specifying their concrete classes.
-- **Builder**: Constructs complex objects step-by-step, allowing for different representations.
+- **[Builder](builder.md)**: Constructs complex objects step-by-step, allowing for different representations.
 - **Factory Method**: Defines an interface for creating an object, letting subclasses decide which class to instantiate.
 - **Prototype**: Creates new objects by copying an existing object, known as a prototype.
 - **Singleton**: Ensures that a class has only one instance and provides a global point of access to it.
