@@ -9,7 +9,7 @@ These patterns deal with object creation mechanisms.
 - **[Builder](builder.md)**: Constructs complex objects step-by-step, allowing for different representations.
 - **[Factory Method](factory_method.md)**: Defines an interface for creating an object, letting subclasses decide which class to instantiate.
 - **[Prototype](prototype.md)**: Creates new objects by copying an existing object, known as a prototype.
-- **Singleton**: Ensures that a class has only one instance and provides a global point of access to it.
+- **[Singleton](singleton.md)**: Ensures that a class has only one instance and provides a global point of access to it.
 
 ## 2. Structural Patterns
 These patterns deal with object composition, simplifying the relationships between objects.
