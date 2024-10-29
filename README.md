@@ -14,8 +14,8 @@ These patterns deal with object creation mechanisms.
 ## 2. Structural Patterns
 These patterns deal with object composition, simplifying the relationships between objects.
 
-- **Adapter**: Converts the interface of a class into another interface that clients expect.
-- **Bridge**: Decouples an abstraction from its implementation, allowing both to vary independently.
+- **[Adapter](adapter.md)**: Converts the interface of a class into another interface that clients expect.
+- **[Bridge](bridge.md)**: Decouples an abstraction from its implementation, allowing both to vary independently.
 - **Composite**: Composes objects into tree-like structures to represent part-whole hierarchies.
 - **[Decorator](decorator.md)**: Adds responsibilities to objects dynamically without modifying their class.
 - **Facade**: Provides a unified interface to a set of interfaces in a subsystem.

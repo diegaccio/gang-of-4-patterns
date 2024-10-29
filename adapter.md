@@ -1,4 +1,4 @@
-# Adapter Pattern in Python
+# Adapter Pattern
 
 The **Adapter Pattern** is a structural design pattern that allows incompatible interfaces to work together. It acts as a bridge between two interfaces, enabling classes with different interfaces to collaborate without modifying their code.
 
@@ -47,11 +47,14 @@ if __name__ == "__main__":
 When you run this code, the output will be:
 
 ```
-Power supply at 220V converted to 110V for American device.
+Samsung TV is now ON.
+Samsung TV is now OFF.
+LG TV is now ON.
+LG TV is now OFF.
 ```
 
-This pattern is useful for integrating incompatible components without changing their underlying code, making systems more modular and flexible.
+This pattern is useful when you want to decouple an abstraction from its implementation, allowing both to evolve independently.
 
 ### Try it yourself
 
-Here’s the working implementation of the Adapter Pattern in [Python](src/adapter.py)
+Here’s the working implementation of the Bridge Pattern in [Python](src/bridge.py)
