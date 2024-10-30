@@ -16,7 +16,7 @@ These patterns deal with object composition, simplifying the relationships betwe
 
 - **[Adapter](adapter.md)**: Converts the interface of a class into another interface that clients expect.
 - **[Bridge](bridge.md)**: Decouples an abstraction from its implementation, allowing both to vary independently.
-- **Composite**: Composes objects into tree-like structures to represent part-whole hierarchies.
+- **[Composition](composition.md)**: Promotes code reusability, as the main class can use components with distinct responsibilities rather than inheriting all behaviors from a single base class.
 - **[Decorator](decorator.md)**: Adds responsibilities to objects dynamically without modifying their class.
 - **Facade**: Provides a unified interface to a set of interfaces in a subsystem.
 - **Flyweight**: Uses sharing to support large numbers of fine-grained objects efficiently.
