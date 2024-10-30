@@ -1,5 +1,4 @@
-
-# Facade Pattern in Python
+# Facade Pattern
 
 The **Facade Pattern** is a structural design pattern that provides a simplified interface to a complex subsystem, making it easier to interact with the subsystem by hiding its complexity. This pattern is useful when you want to simplify client interactions with complex libraries or multiple classes.
 
