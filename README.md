@@ -19,7 +19,7 @@ These patterns deal with object composition, simplifying the relationships betwe
 - **[Composition](composition.md)**: Promotes code reusability, as the main class can use components with distinct responsibilities rather than inheriting all behaviors from a single base class.
 - **[Decorator](decorator.md)**: Adds responsibilities to objects dynamically without modifying their class.
 - **[Facade](facade.md)**: Provides a simplified interface to a complex subsystem.
-- **Flyweight**: Uses sharing to support large numbers of fine-grained objects efficiently.
+- **[Flyweight](flyweight.md)**: Uses sharing to support large numbers of fine-grained objects efficiently.
 - **Proxy**: Provides a surrogate or placeholder for another object to control access to it.
 
 ## 3. Behavioral Patterns
