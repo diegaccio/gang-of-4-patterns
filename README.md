@@ -25,7 +25,7 @@ These patterns deal with object composition, simplifying the relationships betwe
 ## 3. Behavioral Patterns
 These patterns deal with object interaction and communication.
 
-- **Chain of Responsibility**: Passes a request along a chain of handlers, where each handler decides to process it or pass it along.
+- **[Chain of Responsibility](chain_of_responsibility.md)**: Passes a request along a chain of handlers, where each handler decides to process it or pass it along.
 - **Command**: Encapsulates a request as an object, allowing for parameterization and queuing of requests.
 - **Interpreter**: Defines a representation for a language's grammar and uses it to interpret sentences in the language.
 - **Iterator**: Provides a way to access elements of a collection sequentially without exposing the underlying representation.
