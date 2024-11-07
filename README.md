@@ -20,7 +20,7 @@ These patterns deal with object composition, simplifying the relationships betwe
 - **[Decorator](decorator.md)**: Adds responsibilities to objects dynamically without modifying their class.
 - **[Facade](facade.md)**: Provides a simplified interface to a complex subsystem.
 - **[Flyweight](flyweight.md)**: Uses sharing to support large numbers of fine-grained objects efficiently.
-- **Proxy**: Provides a surrogate or placeholder for another object to control access to it.
+- **[Proxy](proxy.md)**: Provides a surrogate or placeholder for another object to control access to it.
 
 ## 3. Behavioral Patterns
 These patterns deal with object interaction and communication.
